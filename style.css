@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+body{
+
+}
+
+.nav-pic{
+    width: 40px;
+    height: 40px;
+    border: solid 1px black;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.nav-pic img{
+    width: 40px;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: rgba(184, 184, 184, 0.2) 0px 7px 29px 0px;
+    color: #000;
+}
+
+.nav-links{
+    margin: 10px;
+    font-size: 1.5em;
+    width: 100vw;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: baseline;
+}
+
+
+.nav-links ul li a{
+    text-decoration: none;
+    margin: 40px;
+
+    
+}
+
+
+
+.nav-links ul li {
+    display: inline;
+}
+
+main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.container{
+    text-align: center;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 50px;
+    width: 25em;
+    border-radius: 10px;
+}
+
+.container h1{
+    margin: 5px;
+}
+
+
+main span{
+    text-transform: none;
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+    box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+}
+
